@@ -1,0 +1,7 @@
+/* Add style customization here */
+
+.TGMline_template{display: block; margin: 0.5em 0.5em 0 0; clear: both;}
+.TGMshow_version{float: right; padding: 0em 1.5em 0.5em 0;}
+.TGMcolumn_version_installed{min-width: 32px; text-align: right; float: right;color: #ff0000; font-weight: bold;}
+.TGMcolumn_version_minimum{min-width: 32px; text-align: right; float: right;}
+.TGMcolumn_version_available{min-width: 32px; text-align: right; float: right;color: #71C671; font-weight: bold;}
