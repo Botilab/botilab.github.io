@@ -5,7 +5,7 @@
 
 #header-center-carousel-single .bg {
     /*background-image: url('../images/bg-sky-1.jpg');*/
-    background-image: url('../images/using-jotali-1.jpg');
+    background-image: url('../assets/images/using-jotali-1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -20,7 +20,7 @@
 }
 
 #action-center-text-btn .bg {
-    background-image: url('../images/bg-13.html');
+    background-image: url('../assets/images/bg-13.html');
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.1;
@@ -29,7 +29,7 @@
 }
 
 #action-center-text-btn-3 .bg {
-	background-image: url('../images/bg-city-2.jpg');
+	background-image: url('../assets/images/bg-city-2.jpg');
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-repeat: no-repeat;
@@ -50,7 +50,7 @@
 }
 
 #footer-list-text .bg {
-	background-image: url('../images/bg-sky-1.jpg');
+	background-image: url('../assets/images/bg-sky-1.jpg');
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-repeat: no-repeat;
