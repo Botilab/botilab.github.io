@@ -45,11 +45,11 @@
 
 #price-3col-3 {
 	background: linear-gradient(to bottom, #ffffff, #f7f5fc);
-}#footer-list-text {
+}#contact {
 	background: #706589;
 }
 
-#footer-list-text .bg {
+#contact .bg {
 	background-image: url('../assets/images/bg-sky-1.jpg');
 	background-size: cover;
 	-webkit-background-size: cover;

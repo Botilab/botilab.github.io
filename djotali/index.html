@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jotali</title>
+    <title>Jotali | Envoyer facilement des messages à vos clients</title>
 
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
     <meta name="keywords" content=""/>
@@ -46,8 +46,13 @@
                         <li><span><a href="#features" class="smooth">Fonctionnalit&eacute;s</a></span></li>
                         <li><span><a href="#clients" class="smooth">Nos clients</a></span></li>
                         <li><span><a href="#pricing" class="smooth">Nos tarifs</a></span></li>
-                        <li><span><a href="#">Support</a></span></li>
-                        <li><span><a href="#">D&eacute;veloppeurs</a></span></li>
+                        <!-- <li><span><a href="#">Support</a></span></li> -->
+                        <!-- <li><span><a href="#">D&eacute;veloppeurs</a></span></li> -->
+                        <li>
+                            <span>
+                                <a href="#contact" class="smooth">Contact</a>
+                            </span>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-2 text-md-right">
@@ -67,12 +72,12 @@
                 <div class="item container">
                     <img src="assets/images/jotali.png" srcset="assets/images/jotali.png@2x.png 2x" alt="" class="screen mb-10">
                     <h1 class="mb-50">vous rapproche de vos clients<br></h1>
-                    <h4 class="mb-50 compressed-box-50">Ne restez plus longtemps sans alerter vos clients de vos nouveaux
-                        produits ou de vos promotions. Impliquez les dans votre business.</h4>
-                    <p>
+                    <h3 class="mb-50 compressed-box-50">Ne restez plus longtemps sans alerter vos clients de vos nouveaux
+                        produits ou de vos promotions. Impliquez les dans votre business.</h3>
+                    <!-- <p>
                         <a class="btn-primary btn btn-lg"><span><strong>Cr&eacute;ez un compte</strong></span></a>
                         <a class="single-iframe-popup btn-warning btn btn-lg"><span>Essayez le produit</span></a>
-                    </p>
+                    </p> -->
                 </div>
             </div>
             <div class="bg"></div>
@@ -136,8 +141,8 @@
         <!-- CLIENTS SECTION -->
         <section id="clients" class="pt-125 pb-0 bg-1-color-light text-center light">
             <div class="container mb-75">
-                <h2 class="mb-25"><strong>Nos clients</strong></h2>
-                <p class="compressed-box-50 mb-75">Nos clients c'est des gens comme vous.</p>
+                <h2 class="mb-25"><strong>Ils nous font confiance</strong></h2>
+                
                 <div class="row">
                     <div class="col-md-3">
                         <img src="assets/images/003-grocery.svg" class="content-img" alt="">
@@ -152,8 +157,8 @@
                         <h4 class="mt-10">Banques</h4>
                     </div>
                     <div class="col-md-3">
-                        <img src="assets/images/001-clinic.svg" class="content-img" alt="">
-                        <h4 class="mt-10">H&ocirc;pitaux</h4>
+                        <img class="img-circle" src="assets/images/rozumy.jpg" class="content-img" alt="">
+                        <h4 class="mt-10">Rozumy Couture</h4>
                     </div>
                 </div>
             </div>
@@ -180,8 +185,8 @@
         <section id="pricing" class="pt-100 pb-100 text-center light">
             <div class="container">
                 <h2><strong>Nos tarifs</strong></h2>
-                <h4 class="mb-75">You are very important to us, all information received will always remain
-                    confidential.</h4>
+                <!-- <h4 class="mb-75">You are very important to us, all information received will always remain
+                    confidential.</h4> -->
                 <div class="row">
                     <div class="col-md-4">
                         <div class="price-box border-box bg-1-color-light light" data-aos="fade-right" data-aos-easing="none" data-aos-duration="500" data-aos-delay="0">
@@ -227,7 +232,7 @@
         </section>
 
         <!-- FOOTER -->
-        <footer id="footer-list-text" class="dark pt-100 pb-100">
+        <footer id="contact" class="dark pt-100 pb-100">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
@@ -279,14 +284,16 @@
                     </div>
                     <div class="col-md-4">
                         <h4><strong>Contact</strong></h4>
-                        <form action="" class="contact_form" id="footer-list-form-form" novalidate="novalidate">
+                        <form action="https://formspree.io/contact@djotali.com" class="contact_form" id="footer-list-form-form" method="POST">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Full name" name="NAME"></div>
+                                <input type="text" class="form-control" placeholder="Full name" name="name"></div>
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Email Address" name="EMAIL"></div>
+                                <input type="email" class="form-control" placeholder="Email Address" name="_replyto"></div>
                             <div class="form-group">
-                                <textarea class="form-control" placeholder="Your message or question" rows="4" name="MESSAGE"></textarea>
+                                <textarea class="form-control" placeholder="Your message or question" rows="4" name="message"></textarea>
                             </div>
+                            <input type="hidden" name="_next" value="//localhost:8000">
+                            <input type="hidden" name="_language" value="fr" />
                             <button type="submit" data-loading-text="•••" data-complete-text="Completed!" data-reset-text="Try again later..." class="btn btn-block btn-primary">
                                 <span>Ask</span></button>
                         </form>
@@ -295,7 +302,7 @@
                 <hr class="mt-50 mb-50">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>&copy; 2017 All Rights Reserved. Jotali &reg; est une marque d&eacute;pos&eacute;e de
+                        <p>&copy; 2017 Touts droits r&eacute;serv&eacute;s. Jotali &reg; est une marque d&eacute;pos&eacute;e de
                             Botilab.</p>
                     </div>
                 </div>
